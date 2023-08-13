@@ -51,4 +51,6 @@ return require('packer').startup(function(use)
 
     use('numToStr/Comment.nvim')
     use{'nvim-lualine/lualine.nvim', requires = { 'kyazdani42/nvim-web-devicons', opt = true }}
+
+	use("Hrle97/nvim.diagnostic_virtual_text_config")
 end)

@@ -55,4 +55,6 @@ return require('packer').startup(function(use)
 	use("Hrle97/nvim.diagnostic_virtual_text_config")
 
     use('ziglang/zig.vim')
+
+    use ('rcarriga/nvim-notify')
 end)

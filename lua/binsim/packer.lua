@@ -70,4 +70,7 @@ return require('packer').startup(function(use)
             { 'sindrets/diffview.nvim' }, -- optional
         },
     }
+
+    use ('fei6409/log-highlight.nvim')
+
 end)

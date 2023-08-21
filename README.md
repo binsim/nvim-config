@@ -27,5 +27,5 @@ git clone git@github.com:binsim/nvim-config.git ~/.config/nvim
 ### Windows
 
 ```bash
-git clone git@github.com:binsim/nvim-config.git ~/.config/nvim
+git clone git@github.com:binsim/nvim-config.git C:\Users\<current_user>\AppData\Local\nvim
 ```

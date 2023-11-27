@@ -8,10 +8,10 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.2',
-        -- or                            , branch = '0.1.x',
+        'nvim-telescope/telescope.nvim', tag = '0.1.x',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
+    use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
 
     use 'folke/tokyonight.nvim'
     use {
@@ -73,6 +73,5 @@ return require('packer').startup(function(use)
         config = true
     }
 
-    use ('fei6409/log-highlight.nvim')
-
+    use('fei6409/log-highlight.nvim')
 end)

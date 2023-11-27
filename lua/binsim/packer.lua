@@ -21,6 +21,7 @@ return require('packer').startup(function(use)
             ts_update()
         end, }
     use('nvim-treesitter/playground')
+    use('nvim-treesitter/nvim-treesitter-context')
     use('theprimeagen/harpoon')
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
@@ -69,6 +70,7 @@ return require('packer').startup(function(use)
             { 'nvim-lua/plenary.nvim' },  -- required
             { 'sindrets/diffview.nvim' }, -- optional
         },
+        config = true
     }
 
     use ('fei6409/log-highlight.nvim')

@@ -180,7 +180,7 @@ neogit.setup {
         popup = {
             ["?"] = "HelpPopup",
             ["A"] = "CherryPickPopup",
-            ["D"] = "DiffPopup",
+            ["d"] = "DiffPopup",
             ["M"] = "RemotePopup",
             ["P"] = "PushPopup",
             ["X"] = "ResetPopup",
@@ -208,7 +208,6 @@ neogit.setup {
             ["<c-s>"] = "StageAll",
             ["u"] = "Unstage",
             ["U"] = "UnstageStaged",
-            ["d"] = "DiffAtFile",
             ["$"] = "CommandHistory",
             ["#"] = "Console",
             ["<c-r>"] = "RefreshBuffer",
